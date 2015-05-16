@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: "Reproducible Research Peer Assessment 1"
 author: "Mihhail Fjodorov"
 date: "Thursday, May 14, 2015"
@@ -170,3 +171,29 @@ panelPlot <- panelPlot + facet_wrap(~ day_index, nrow = 2, ncol = 1)
 panelPlot <- panelPlot + ggtitle("Mean Number Steps per Interval (Weekdays/Weekends)")
 panelPlot + xlab("Mean Number of Steps") + ylab("5 minute interval")
 ```
+=======
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
